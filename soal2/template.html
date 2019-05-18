@@ -1,0 +1,21 @@
+
+<html>
+    <head>
+        <title>Golang learn net/http</title>
+    </head>
+    <body>
+        <p>Huruf Mati :  {{.consonant}}</p>
+        <p>Kata : {{.word}}</p>
+        <p>Sorting Berdasarkan abjad dan diawali dengan huruf Hidup</p>
+        <p>Hasil : {{.result}}</p>
+
+        <br><br>
+        <h2>Try it to Sorting a word by Vowel and Consonant</h2>
+        <form method="post" action="/process">
+            <input type="text" placeholder="Tulis kata" name="word" required />
+
+            <button type="submmit">Sorting</button>
+        </form>
+    </body>
+</html>
+
